@@ -1,2 +1,19 @@
 # Apuntes de Excel Avanzado
 Repositorio para el curso de Excel. Herramientas avanzadas, fórmulas y macros.
+# Unidad 1: Fundamentos Avanzados de Excel
+
+En esta unidad empezaremos a estructurar datos complejos y a conectar la lógica de celdas con funciones avanzadas, preparando el terreno para **Power BI**.
+
+---
+
+## 1. Fórmulas Clave de Búsqueda
+Es fundamental dominar la consistencia de las matrices antes de migrar a modelos relacionales.
+
+* **BUSCARV:** Busca un valor en la primera columna de la izquierda.
+* **XLOOKUP (BUSCARX):** La evolución moderna. Más eficiente y no le importa la posición de la columna.
+
+### Ejemplo de sintaxis:
+Cuando documentes una fórmula o un script, enciérralo en el bloque de código para que resalte:
+
+```excel
+=BUSCARX(A2; Clientes[ID]; Clientes[Nombre]; "No encontrado")
