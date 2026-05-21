@@ -16,6 +16,7 @@ Es fundamental dominar la consistencia de las matrices antes de migrar a modelos
 Cuando documentes una fórmula o un script, enciérralo en el bloque de código para que resalte:
 
 ```excel
-=BUSCARX(A2; Clientes[ID]; Clientes[Nombre]; "No encontrado")```
+=BUSCARX(A2; Clientes[ID]; Clientes[Nombre]; "No encontrado")
+```
 
 
